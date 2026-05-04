@@ -46,3 +46,14 @@ void Mahasiswa::printALL()
     cout << endl;
 }
 
+int main ()
+{
+    //pembuatan object dan pemberian nilai
+    Mahasiswa mhs1("sri ti");
+    Mahasiswa mhs2("budiono");
+    //memberi nilai pada setNIM() untuk merubah nilai nim
+    Mahasiswa::setNim(9);
+    Mahasiswa mhs3("andil");
+    Mahasiswa mhs4("jek");
+}
+
