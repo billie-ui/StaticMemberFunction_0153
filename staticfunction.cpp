@@ -55,5 +55,17 @@ int main ()
     Mahasiswa::setNim(9);
     Mahasiswa mhs3("andil");
     Mahasiswa mhs4("jek");
+
+    //memanggil prosedur printall()
+    mhs1.printALL();
+    mhs2.printALL();
+    mhs3.printALL();
+    mhs4.printALL();
+
+    //menampilkan NIM terakhir yang di proses
+    cout << "akses dari luar object = " << Mahasiswa::getNim() << endl;
+    system ("pause");
+
+    return 0;
 }
 
