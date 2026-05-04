@@ -30,3 +30,13 @@ class Mahasiswa
             setID();
         }
 };
+
+int Mahasiswa::nim = 0;
+//pendefinisial prosedur2 diluar class
+
+void Mahasiswa::setID()
+{
+    id = ++nim;
+}
+
+
